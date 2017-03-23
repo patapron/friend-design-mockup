@@ -1,0 +1,102 @@
+body{
+	background-image: url("../images/papel.jpg");
+	margin: 0 auto;
+}
+
+#page{
+	margin: 0 auto;
+	width: 50%;	
+}
+header{
+	margin-top: 20px;
+}
+
+header h1{  
+	font-family: arial; 
+ 	text-decoration:none;   
+ 	color: orange;
+}
+
+header img{
+	height: 15%;
+	width: 15%;
+}
+
+#content{
+	height: 100%;
+	border-radius: 0px 10px 0px 0px;
+	background-color: #5F3A06;
+	padding: 5px;
+}
+
+.ext{
+	border: 1px dashed orange;
+	border-radius: 0px 10px 0px 0px;
+	padding: 6px;
+
+}
+
+.int{
+	border-radius: 0px 10px 0px 0px;
+	padding: 5px;
+	background-color: #3F2604;
+}
+
+.dark{
+	border: 1px dashed #93682B;
+	border-radius: 0px 10px 0px 0px;
+	padding: 15px;
+	overflow:hidden;
+}
+
+.extbot{
+	border-radius: 0px 10px 10px 0px;
+	padding: 2px;
+	background-color: #93682B;
+
+}
+
+.intbot{
+	border: 1px dashed orange;
+	border-radius: 0px 10px 10px 0px;
+	padding: 2px;
+
+}
+
+.intbot h3{
+	font-family: arial;
+	font-size: 98%;
+	font-weight: 300;
+	margin: 1px 1px 1px 5px;
+	vertical-align:top;
+	color: orange;
+}
+
+.etiqueta{
+}
+section{
+	float: left;
+	width: 69%;
+	background-color: white;
+	border-radius: 0px 10px 0px 0px;
+	padding: 5px;
+
+}
+
+article{
+	height: 100px;
+} 
+
+aside{
+	float:right;
+	width: 29%;
+}
+
+ul{
+	list-style:none;
+	padding:0px;
+	margin: 0px;
+}
+li{
+	margin-bottom: 3px;
+}
